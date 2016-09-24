@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C20C6721B680FA5000361B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C20C6711B680FA5000361B0 /* AppDelegate.swift */; };
+		6C20C6761B680FA5000361B0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C20C6751B680FA5000361B0 /* GameViewController.swift */; };
+		6C20C6791B680FA5000361B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C20C6771B680FA5000361B0 /* Main.storyboard */; };
+		6C20C67B1B680FA5000361B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C20C67A1B680FA5000361B0 /* Assets.xcassets */; };
+		6C20C67E1B680FA5000361B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C20C67C1B680FA5000361B0 /* LaunchScreen.storyboard */; };
+		6C20C6891B680FA5000361B0 /* Cell_ShadingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C20C6881B680FA5000361B0 /* Cell_ShadingTests.swift */; };
+		6C20C6941B680FA6000361B0 /* Cell_ShadingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C20C6931B680FA6000361B0 /* Cell_ShadingUITests.swift */; };
+		6C20C6A21B6810E2000361B0 /* cel.shader in Resources */ = {isa = PBXBuildFile; fileRef = 6C20C6A11B6810E2000361B0 /* cel.shader */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C20C6851B680FA5000361B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C20C6661B680FA5000361B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C20C66D1B680FA5000361B0;
+			remoteInfo = "Cell Shading";
+		};
+		6C20C6901B680FA6000361B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C20C6661B680FA5000361B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C20C66D1B680FA5000361B0;
+			remoteInfo = "Cell Shading";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C20C66E1B680FA5000361B0 /* Cell Shading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cell Shading.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C20C6711B680FA5000361B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C20C6751B680FA5000361B0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		6C20C6781B680FA5000361B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C20C67A1B680FA5000361B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C20C67D1B680FA5000361B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C20C67F1B680FA5000361B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C20C6841B680FA5000361B0 /* Cell ShadingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cell ShadingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C20C6881B680FA5000361B0 /* Cell_ShadingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell_ShadingTests.swift; sourceTree = "<group>"; };
+		6C20C68A1B680FA6000361B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C20C68F1B680FA6000361B0 /* Cell ShadingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cell ShadingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C20C6931B680FA6000361B0 /* Cell_ShadingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell_ShadingUITests.swift; sourceTree = "<group>"; };
+		6C20C6951B680FA6000361B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C20C6A11B6810E2000361B0 /* cel.shader */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cel.shader; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C20C66B1B680FA5000361B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C20C6811B680FA5000361B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C20C68C1B680FA6000361B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C20C6651B680FA5000361B0 = {
+			isa = PBXGroup;
+			children = (
+				6C20C6701B680FA5000361B0 /* Cell Shading */,
+				6C20C6871B680FA5000361B0 /* Cell ShadingTests */,
+				6C20C6921B680FA6000361B0 /* Cell ShadingUITests */,
+				6C20C66F1B680FA5000361B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C20C66F1B680FA5000361B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C20C66E1B680FA5000361B0 /* Cell Shading.app */,
+				6C20C6841B680FA5000361B0 /* Cell ShadingTests.xctest */,
+				6C20C68F1B680FA6000361B0 /* Cell ShadingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C20C6701B680FA5000361B0 /* Cell Shading */ = {
+			isa = PBXGroup;
+			children = (
+				6C20C6711B680FA5000361B0 /* AppDelegate.swift */,
+				6C20C6751B680FA5000361B0 /* GameViewController.swift */,
+				6C20C6A11B6810E2000361B0 /* cel.shader */,
+				6C20C6771B680FA5000361B0 /* Main.storyboard */,
+				6C20C67A1B680FA5000361B0 /* Assets.xcassets */,
+				6C20C67C1B680FA5000361B0 /* LaunchScreen.storyboard */,
+				6C20C67F1B680FA5000361B0 /* Info.plist */,
+			);
+			path = "Cell Shading";
+			sourceTree = "<group>";
+		};
+		6C20C6871B680FA5000361B0 /* Cell ShadingTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C20C6881B680FA5000361B0 /* Cell_ShadingTests.swift */,
+				6C20C68A1B680FA6000361B0 /* Info.plist */,
+			);
+			path = "Cell ShadingTests";
+			sourceTree = "<group>";
+		};
+		6C20C6921B680FA6000361B0 /* Cell ShadingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C20C6931B680FA6000361B0 /* Cell_ShadingUITests.swift */,
+				6C20C6951B680FA6000361B0 /* Info.plist */,
+			);
+			path = "Cell ShadingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C20C66D1B680FA5000361B0 /* Cell Shading */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C20C6981B680FA6000361B0 /* Build configuration list for PBXNativeTarget "Cell Shading" */;
+			buildPhases = (
+				6C20C66A1B680FA5000361B0 /* Sources */,
+				6C20C66B1B680FA5000361B0 /* Frameworks */,
+				6C20C66C1B680FA5000361B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cell Shading";
+			productName = "Cell Shading";
+			productReference = 6C20C66E1B680FA5000361B0 /* Cell Shading.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C20C6831B680FA5000361B0 /* Cell ShadingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C20C69B1B680FA6000361B0 /* Build configuration list for PBXNativeTarget "Cell ShadingTests" */;
+			buildPhases = (
+				6C20C6801B680FA5000361B0 /* Sources */,
+				6C20C6811B680FA5000361B0 /* Frameworks */,
+				6C20C6821B680FA5000361B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C20C6861B680FA5000361B0 /* PBXTargetDependency */,
+			);
+			name = "Cell ShadingTests";
+			productName = "Cell ShadingTests";
+			productReference = 6C20C6841B680FA5000361B0 /* Cell ShadingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C20C68E1B680FA6000361B0 /* Cell ShadingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C20C69E1B680FA6000361B0 /* Build configuration list for PBXNativeTarget "Cell ShadingUITests" */;
+			buildPhases = (
+				6C20C68B1B680FA6000361B0 /* Sources */,
+				6C20C68C1B680FA6000361B0 /* Frameworks */,
+				6C20C68D1B680FA6000361B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C20C6911B680FA6000361B0 /* PBXTargetDependency */,
+			);
+			name = "Cell ShadingUITests";
+			productName = "Cell ShadingUITests";
+			productReference = 6C20C68F1B680FA6000361B0 /* Cell ShadingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C20C6661B680FA5000361B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Evan Bacon";
+				TargetAttributes = {
+					6C20C66D1B680FA5000361B0 = {
+						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
+					};
+					6C20C6831B680FA5000361B0 = {
+						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
+						TestTargetID = 6C20C66D1B680FA5000361B0;
+					};
+					6C20C68E1B680FA6000361B0 = {
+						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
+						TestTargetID = 6C20C66D1B680FA5000361B0;
+					};
+				};
+			};
+			buildConfigurationList = 6C20C6691B680FA5000361B0 /* Build configuration list for PBXProject "Cell Shading" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C20C6651B680FA5000361B0;
+			productRefGroup = 6C20C66F1B680FA5000361B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C20C66D1B680FA5000361B0 /* Cell Shading */,
+				6C20C6831B680FA5000361B0 /* Cell ShadingTests */,
+				6C20C68E1B680FA6000361B0 /* Cell ShadingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C20C66C1B680FA5000361B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C20C67E1B680FA5000361B0 /* LaunchScreen.storyboard in Resources */,
+				6C20C67B1B680FA5000361B0 /* Assets.xcassets in Resources */,
+				6C20C6A21B6810E2000361B0 /* cel.shader in Resources */,
+				6C20C6791B680FA5000361B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C20C6821B680FA5000361B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C20C68D1B680FA6000361B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C20C66A1B680FA5000361B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C20C6761B680FA5000361B0 /* GameViewController.swift in Sources */,
+				6C20C6721B680FA5000361B0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C20C6801B680FA5000361B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C20C6891B680FA5000361B0 /* Cell_ShadingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C20C68B1B680FA6000361B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C20C6941B680FA6000361B0 /* Cell_ShadingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C20C6861B680FA5000361B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C20C66D1B680FA5000361B0 /* Cell Shading */;
+			targetProxy = 6C20C6851B680FA5000361B0 /* PBXContainerItemProxy */;
+		};
+		6C20C6911B680FA6000361B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C20C66D1B680FA5000361B0 /* Cell Shading */;
+			targetProxy = 6C20C6901B680FA6000361B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C20C6771B680FA5000361B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C20C6781B680FA5000361B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C20C67C1B680FA5000361B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C20C67D1B680FA5000361B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C20C6961B680FA6000361B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C20C6971B680FA6000361B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C20C6991B680FA6000361B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cell Shading/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "brix.Cell-Shading";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6C20C69A1B680FA6000361B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cell Shading/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "brix.Cell-Shading";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6C20C69C1B680FA6000361B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cell ShadingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "brix.Cell-ShadingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cell Shading.app/Cell Shading";
+			};
+			name = Debug;
+		};
+		6C20C69D1B680FA6000361B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cell ShadingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "brix.Cell-ShadingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cell Shading.app/Cell Shading";
+			};
+			name = Release;
+		};
+		6C20C69F1B680FA6000361B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Cell ShadingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "brix.Cell-ShadingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Cell Shading";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6C20C6A01B680FA6000361B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Cell ShadingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "brix.Cell-ShadingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Cell Shading";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C20C6691B680FA5000361B0 /* Build configuration list for PBXProject "Cell Shading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C20C6961B680FA6000361B0 /* Debug */,
+				6C20C6971B680FA6000361B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C20C6981B680FA6000361B0 /* Build configuration list for PBXNativeTarget "Cell Shading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C20C6991B680FA6000361B0 /* Debug */,
+				6C20C69A1B680FA6000361B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C20C69B1B680FA6000361B0 /* Build configuration list for PBXNativeTarget "Cell ShadingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C20C69C1B680FA6000361B0 /* Debug */,
+				6C20C69D1B680FA6000361B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C20C69E1B680FA6000361B0 /* Build configuration list for PBXNativeTarget "Cell ShadingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C20C69F1B680FA6000361B0 /* Debug */,
+				6C20C6A01B680FA6000361B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C20C6661B680FA5000361B0 /* Project object */;
+}
